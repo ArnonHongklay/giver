@@ -1,0 +1,18 @@
+{
+  "name": "giver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:arnonhongklay/giver.git",
+  "author": "Arnon Hongklay <arnon@hongklay.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^4.0.0-beta.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
