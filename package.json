@@ -1,10 +1,18 @@
 {
   "name": "giver",
+  "description": "Donation project",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "git@github.com:arnonhongklay/giver.git",
   "author": "Arnon Hongklay <arnon@hongklay.com>",
   "license": "MIT",
+  "scripts": {
+    "server": "babel-node server/index.js",
+    "dev": "next -p 8080",
+    "build": "next build",
+    "start": "next start",
+    "babel-node": "babel-node --presets=env"
+  },
   "dependencies": {
     "antd": "^2.13.6",
     "apollo-server-express": "^1.1.6",
@@ -32,10 +40,5 @@
     "react-dom": "^16.0.0",
     "react-fontawesome": "^1.6.1",
     "styled-components": "^2.2.1"
-  },
-  "scripts": {
-    "dev": "next -p 8080",
-    "build": "next build",
-    "start": "next start"
   }
 }
